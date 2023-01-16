@@ -10,7 +10,7 @@ function App() {
 
         <GlobalStyle />
         <Routes>
-          <Route path="/" element={<HomePage /> }>
+          <Route path="/brisa-marvel/" element={<HomePage /> }>
             <Route path="/comic/:id" element={<ComicPage />} />
           </Route>
         </Routes>
