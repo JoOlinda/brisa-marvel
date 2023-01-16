@@ -3,13 +3,13 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://joolinda.github.io/brisa-marvel/",
   "scripts": {
     "dev": "vite --port 80",
     "build": "vite build",
     "preview": "vite preview --port 80",
     "serve": "vite --port 80"
   },
-  "homepage": "https://joolinda.github.io/brisa-marvel/",
   "dependencies": {
     "@react-google-maps/api": "^2.17.1",
     "axios": "^1.2.2",
