@@ -543,4 +543,4 @@ PERFORMANCE OF THIS SOFTWARE.
         margin: 0 10px;
     }
 
-`;function wx(){return V("div",{className:"App",children:We(ki,{children:[V(yx,{}),V(B0,{children:V(xa,{path:"/brisa-marvel/",element:V(hx,{}),children:V(xa,{path:"/comic/:id",element:V(vx,{})})})})]})})}Pl.createRoot(document.getElementById("root")).render(V(H0,{children:V(wx,{})}));
+`;function wx(){return V("div",{className:"App",children:We(ki,{children:[V(yx,{}),V(B0,{children:V(xa,{path:"/brisa-marvel",element:V(hx,{}),children:V(xa,{path:"comic/:id",element:V(vx,{})})})})]})})}Pl.createRoot(document.getElementById("root")).render(V(H0,{children:V(wx,{})}));
