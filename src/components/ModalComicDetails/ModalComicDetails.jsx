@@ -95,7 +95,7 @@ function ModalComicDetails({ comic }) {
                         <p>
                             {deliveryAddress?.text}
                         </p>
-                        <Link to="/">Voltar para a página inicial</Link>
+                        <Link to="./">Voltar para a página inicial</Link>
                     </DeliveryMessage>
                 )}
             </div>

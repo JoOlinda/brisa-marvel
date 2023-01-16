@@ -10,7 +10,7 @@ function HomePage(props) {
                     <ul>
                         <li>
                             <Link to="/">
-                                <Logo src="/logo.svg" />
+                                <Logo src="./logo.svg" />
                             </Link>
                         </li>
                     </ul>

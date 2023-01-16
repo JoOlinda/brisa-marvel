@@ -9,7 +9,7 @@ function ComicCardMini({ ComicDetails }) {
     return (
         <CardContainer>
             <ComicCard>
-                <Link to={`/comic/${ComicDetails?.id}`} state={{comic: ComicDetails}} >
+                <Link to={`./comic/${ComicDetails?.id}`} state={{comic: ComicDetails}} >
                     <CardContentFrame>
                         <img src={`${ComicDetails?.thumbnail?.path}.${ComicDetails?.thumbnail?.extension}` || "/images/image-not-found.jpg" } className="card-thumb-frame-thumbnail" />
                     </CardContentFrame>
