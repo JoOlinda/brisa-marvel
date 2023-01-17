@@ -21,7 +21,7 @@ function ComicPage(props) {
     return (
         <>
             {!showModal && (
-                <Navigate to="./" replace={true} />
+                <Navigate to="/" replace={true} />
             )}
             <FullScreen onClick={handleCloseModalContainer}>
                 <ModalComicDetails comic={comicData}/>
