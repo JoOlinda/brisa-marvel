@@ -9,7 +9,7 @@ function App() {
       <>
 
         <GlobalStyle />
-        <Routes>
+        <Routes basename="/brisa-marvel">
           <Route path="/brisa-marvel" element={<HomePage /> }>
             <Route path="comic/:id" element={<ComicPage />} />
           </Route>
